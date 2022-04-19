@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-					Footprint Calc
-			</title>
-			<link href="{{url_for('static', filename='style.css')}}" rel="stylesheet"> 
-
-    </head>
-    <body onload="ajaxCall()">
-      {% include '_navigation.html' %}
-        
-    <section>
-    <div class="btn">
-       <button> <a href="{{url_for('form')}}"> What Is My Carbon FootPrint </a> </button>
-       <button> <a href="{{url_for('how_to')}}"> What Can I Do To Help </a></button>
-      </div>
-      <!-- <div class="btn">
-          <button>What Can I Do To Help</button>
-      </div> -->
+<section>
   </div>
      <div class="leaf">
      <div>  <img src="{{url_for('static', filename='assets/images/Autumn-Fall-Leaves-Clip-Art-PNG.png')}}" height="75px" width="75px"></img></div>
@@ -55,10 +33,3 @@
             
      </div>
      </section>
-
-     <script src="{{url_for('static', filename='jquery.js')}}"></script>
-
-     <script src="{{url_for('static', filename='behaviour.js')}}"></script>
-
-    </body>
-</html>
